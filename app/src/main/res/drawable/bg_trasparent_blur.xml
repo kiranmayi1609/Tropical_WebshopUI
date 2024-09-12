@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Image -->
+    <item>
+        <bitmap
+            android:src="@drawable/bg"
+            android:tileMode="disabled" />
+    </item>
+
+    <!-- Semi-transparent overlay -->
+    <item>
+        <shape>
+            <solid android:color="#80FFFFFF" /> <!-- Adjust alpha value for transparency -->
+        </shape>
+    </item>
+</layer-list>
